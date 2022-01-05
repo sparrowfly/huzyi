@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:55:41.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qEJTdHUvAUnI-m5uoWBh" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T13:04:05.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="27-uw5VVa7HflcPwtHE7" version="16.1.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,71 @@
           <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RQhBh5RVngrPMJNN-Q2V-2" value="数字输入框 @beisen-mobile/number-input" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="hD4dzmno9ChzGV96hOUr">
+    <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-0" />
+        <mxCell id="r0kJeHJl_jmnn3t6eado-1" parent="r0kJeHJl_jmnn3t6eado-0" />
+        <mxCell id="r0kJeHJl_jmnn3t6eado-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-3" target="r0kJeHJl_jmnn3t6eado-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-3" value="加载@ocean/mobile-date组件" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="320" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-10" target="r0kJeHJl_jmnn3t6eado-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-10" value="判断渲染组件类型" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="320" y="190" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-11" value="为空／不为空&amp;nbsp;@beisen-mobile/text-input" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="110" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-12" value="&amp;nbsp;复杂日期选择&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;.sf ns text&amp;#34; ; font-size: 13px&quot;&gt;mobile-complex-date&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="-40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-13" value="数字输入框+自定义区间&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;.sf ns text&amp;#34; ; font-size: 13px&quot;&gt;mobile-complex-date&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-15" target="r0kJeHJl_jmnn3t6eado-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-15" value="运算符 + 锁定状态" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="480" y="185" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="r0kJeHJl_jmnn3t6eado-1" source="r0kJeHJl_jmnn3t6eado-17" target="r0kJeHJl_jmnn3t6eado-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-17" value="uiType == date" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="320" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-18" value="复合日期选择&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;.sf ns text&amp;#34; ; font-size: 13px&quot;&gt;mobile-complex-date&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="390" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-19" value="日期范围@beisen-mobile/field-date-picker-range" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
+          <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0kJeHJl_jmnn3t6eado-20" value="数字输入框 @beisen-mobile/number-input" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="r0kJeHJl_jmnn3t6eado-1">
           <mxGeometry x="690" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
