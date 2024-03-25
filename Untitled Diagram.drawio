@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T11:13:09.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KZNGuz-fL1o-b8njkJ8C" version="22.1.15" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-25T06:03:06.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hQKKJScJ--r9TDaFqq-1" version="23.0.2" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -547,6 +547,63 @@
         </mxCell>
         <mxCell id="8M76U9fCvLoV91ibzMhm-24" value="1、评审中&lt;br&gt;2、是否提交&lt;br&gt;3、实时分数" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="670" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LpaN0i640TQ15alKm-P0" name="第 9 页">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-1" target="tiB3d2odEa9GLv2IdOSw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-1" value="background监听页面状态chrome.tabs.onUpdated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-2" target="tiB3d2odEa9GLv2IdOSw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-2" value="发送消息给content&lt;br&gt;chrome.extension.onMessage.addListener" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="160" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-8" value="&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit;&quot; class=&quot;js plain&quot;&gt;tab.status!=&amp;nbsp;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; color: rgb(0, 51, 102) !important;&quot; class=&quot;js string&quot;&gt;&#39;complete&#39;&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-9" target="tiB3d2odEa9GLv2IdOSw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-9" value="content执行&amp;nbsp;initkeepicon 方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-10" target="tiB3d2odEa9GLv2IdOSw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-10" value="获取渠道的配置文件&lt;br&gt;getchannelinfo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-11" target="tiB3d2odEa9GLv2IdOSw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-11" value="调接口判断是否开启自动查重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="tiB3d2odEa9GLv2IdOSw-12" target="tiB3d2odEa9GLv2IdOSw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-12" value="向渠道页面插入图标dom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-13" value="远程拉取当前渠道的图标脚本&lt;br&gt;执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="710" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiB3d2odEa9GLv2IdOSw-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
